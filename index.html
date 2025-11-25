@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <title>OBMC Enroll Now</title>
+     <style>
+        body {
+            background-image: url('file:///Users/destiny/Desktop/DSC06678.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .overlay-box {
+            background: rgba(255, 255, 255, 0.90);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h1, h2 {                  
+            font-weight: 400;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div>
+                <a href="exercise 9.html" class="navbar-brand" image><img src="file:///Users/destiny/Desktop/OBMC+LOGO+2024-04.webp" alt="Logo" width="60" height="60"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a href="exercise 9.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="contact_us.html" class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a href="about_us.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="enroll_now.html" class="nav-link">Enroll Now</a></li>
+            </ul>
+            <form class="d-flex">
+                <input type="text" class="form-control me-2" placeholder="Search">
+                <button type="button" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">OBMC Student Enrollment Form</h1>
+        <p class="text-center text-muted mb-4">Fill out this form below to enroll for the upcoming school year</p>
+
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="overlay-box">
+              <p>Student Information</p>
+                    <form>
+                       <div class="row">
+                           <div class="col-md-6 mb-3">
+                         <label class="form-label">First Name</label>
+                         <input type="text" class="form-control" placeholder="Enter your first name">
+                       </div>
+
+                            <div class="col-md-6 mb-3">
+                             <label class="form-label">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your last name">
+                     </div>
+                    </div>
+                   </form>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <form>
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <label class="form-label">Birth Date</label>
+            <input type="date" class="form-control">
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <label class="form-label">Gender</label>
+            <select class="form-control">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <label class="form-label">Grade Level</label>
+            <select class="form-control">
+                <option value="">Select Grade Level</option>
+                <option value="grade7">Grade 7</option>
+                <option value="grade8">Grade 8</option>
+                <option value="grade9">Grade 9</option>
+                <option value="grade10">Grade 10</option>
+                <option value="grade11">Grade 11</option>
+                <option value="grade12">Grade 12</option>
+            </select>
+        </div>
+    </div>
+</form>
+                <div class="mb-3">
+                            <label class="form-label">Contact Number</label>
+                            <input type="text" class="form-control" placeholder="Enter your contact number">
+                        </div>
+                    </form>
+                    <form>
+                        <p>Other Information</p>
+                        <p>Mode of Learning</p>
+                        <div class="mb-3">
+         <label>Online Class</label><input type="radio" name="mode_of_learning" class="form-check-input">
+        <label>Face to Face</label><input type="radio" name="mode_of_learning" class="form-check-input">
+        <label>Hybrid</label><input type="radio" name="mode_of_learning" class="form-check-input">
+    </div>
+    <div class="mb-3">
+        <label>I confirm that the information provided is accurate and complete.</label><input type="checkbox" class="form-check-input">
+    </div>
+    <button class="btn btn-primary w-100 mt-3">Submit</button>
+
+ </form>
+                    
+
+                </div>
+            </div>
+        </div>
+</body>
+</html>
